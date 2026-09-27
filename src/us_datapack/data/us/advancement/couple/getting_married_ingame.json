@@ -1,0 +1,26 @@
+{
+    "parent": "us:couple/proposal_ingame",
+    "display": {
+        "title": {
+            "text": "Getting married (In game)"
+        },
+        "description": {
+            "text": "Yes."
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:getting_married_ingame"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

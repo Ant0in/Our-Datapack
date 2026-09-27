@@ -1,0 +1,26 @@
+{
+    "parent": "us:root",
+    "display": {
+        "title": {
+            "text": "6 Months!"
+        },
+        "description": {
+            "text": "It's already been half a year?"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:6_months"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

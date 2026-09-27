@@ -1,0 +1,26 @@
+{
+    "parent": "us:couple/getting_married_ingame",
+    "display": {
+        "title": {
+            "text": "Proposal"
+        },
+        "description": {
+            "text": "Will you (really) marry me?"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:proposal_irl"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "parent": "us:memories/going_on_date",
+    "display": {
+        "title": {
+            "text": "Confession..."
+        },
+        "description": {
+            "text": "Uh-uh... I like you, like... a lot. ><"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:confession"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

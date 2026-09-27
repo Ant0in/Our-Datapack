@@ -1,0 +1,26 @@
+{
+    "parent": "us:root",
+    "display": {
+        "title": {
+            "text": "Home Sweet Home"
+        },
+        "description": {
+            "text": "Build a place we can call ours."
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:home_sweet_home"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

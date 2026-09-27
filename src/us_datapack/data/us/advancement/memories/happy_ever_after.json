@@ -1,0 +1,26 @@
+{
+    "parent": "us:memories/rebuild",
+    "display": {
+        "title": {
+            "text": "Happy ever After ❤"
+        },
+        "description": {
+            "text": "I love you, forever."
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:happy_ever_after"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

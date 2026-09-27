@@ -1,0 +1,26 @@
+{
+    "parent": "us:build/church",
+    "display": {
+        "title": {
+            "text": "Museum"
+        },
+        "description": {
+            "text": "This project is soooo massive, I don't even know where to start!"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:museum"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

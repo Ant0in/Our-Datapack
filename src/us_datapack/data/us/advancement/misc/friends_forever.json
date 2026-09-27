@@ -1,0 +1,26 @@
+{
+    "parent": "us:root",
+    "display": {
+        "title": {
+            "text": "Friends Forever"
+        },
+        "description": {
+            "text": "Réglisse is our first pet together, and we will take care of it forever."
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:friends_forever"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "parent": "us:build/space_valkyria",
+    "display": {
+        "title": {
+            "text": "Main Storage"
+        },
+        "description": {
+            "text": "I never really made a fully functional storage before, in any of my worlds."
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:storage"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

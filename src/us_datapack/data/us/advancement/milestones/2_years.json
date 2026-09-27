@@ -1,0 +1,26 @@
+{
+    "parent": "us:milestones/1_year",
+    "display": {
+        "title": {
+            "text": "2 Years!"
+        },
+        "description": {
+            "text": "Things are getting serious here..."
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:2_years"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

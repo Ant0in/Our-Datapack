@@ -1,0 +1,26 @@
+{
+    "parent": "us:milestones/5_years",
+    "display": {
+        "title": {
+            "text": "10 Years!"
+        },
+        "description": {
+            "text": "It's been so long, yet it feels so short. 1000 years with you wouldn't be enough for me."
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:10_years"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

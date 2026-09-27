@@ -1,0 +1,26 @@
+{
+    "parent": "us:misc/kid",
+    "display": {
+        "title": {
+            "text": "Family"
+        },
+        "description": {
+            "text": "Our minecraft family is growing! The kid joined the server!!"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:family"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

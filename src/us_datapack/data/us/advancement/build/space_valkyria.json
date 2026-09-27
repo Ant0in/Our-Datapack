@@ -1,0 +1,26 @@
+{
+    "parent": "us:build/home_sweet_home",
+    "display": {
+        "title": {
+            "text": "Space Valkyria III"
+        },
+        "description": {
+            "text": "It's an honor to bring this build in our world ❤"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:space_valkyria"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

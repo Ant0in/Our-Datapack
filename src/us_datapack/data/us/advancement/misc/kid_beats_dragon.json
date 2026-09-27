@@ -1,0 +1,26 @@
+{
+    "parent": "us:misc/family",
+    "display": {
+        "title": {
+            "text": "Child beating dragons"
+        },
+        "description": {
+            "text": "Wait our kid is actually cracked? He's a natural, like his father :3 (oh and I guess his mother too)"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:kid_beats_dragon"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

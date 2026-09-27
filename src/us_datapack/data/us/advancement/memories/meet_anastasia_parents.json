@@ -1,0 +1,26 @@
+{
+    "parent": "us:memories/meet_antoine_parents",
+    "display": {
+        "title": {
+            "text": "Meet Victor and Tatiana"
+        },
+        "description": {
+            "text": "Okay so this one is a bit tricky..."
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:meet_anastasia_parents"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

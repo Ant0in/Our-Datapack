@@ -1,0 +1,26 @@
+{
+    "parent": "us:milestones/6_months",
+    "display": {
+        "title": {
+            "text": "1 Year!"
+        },
+        "description": {
+            "text": "It's been a year!! A whole life with you wouldn't be near enough for me."
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:1_year"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

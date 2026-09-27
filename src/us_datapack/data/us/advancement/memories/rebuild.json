@@ -1,0 +1,26 @@
+{
+    "parent": "us:memories/pause",
+    "display": {
+        "title": {
+            "text": "Rebuilding..."
+        },
+        "description": {
+            "text": "Because love is even more beautiful when times are hard."
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:rebuild"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

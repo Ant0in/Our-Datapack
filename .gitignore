@@ -1,0 +1,9 @@
+
+# Python stuff (copied a random .gitignore from one of my repo so yeah whatever keeping it here ts funny)
+/.venv
+/.pytest_cache
+__pycache__
+
+# IDE stuff
+/.vscode
+/.idea

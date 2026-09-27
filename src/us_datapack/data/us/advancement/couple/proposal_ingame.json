@@ -1,0 +1,26 @@
+{
+    "parent": "us:root",
+    "display": {
+        "title": {
+            "text": "Proposal (In game)"
+        },
+        "description": {
+            "text": "Will you marry me?"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:proposal_ingame"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

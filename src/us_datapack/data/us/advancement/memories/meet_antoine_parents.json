@@ -1,0 +1,26 @@
+{
+    "parent": "us:memories/confession",
+    "display": {
+        "title": {
+            "text": "Meet Thomas and Emanuelle"
+        },
+        "description": {
+            "text": "On the very first day? Are we serious?"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:meet_antoine_parents"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

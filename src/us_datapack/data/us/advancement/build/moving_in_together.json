@@ -1,0 +1,26 @@
+{
+    "parent": "us:build/home_sweet_home",
+    "display": {
+        "title": {
+            "text": "Moving in together"
+        },
+        "description": {
+            "text": "We're building our base IRL ❤"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:moving_in_together"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

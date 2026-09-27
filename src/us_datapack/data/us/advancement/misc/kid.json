@@ -1,0 +1,26 @@
+{
+    "parent": "us:misc/friends_forever",
+    "display": {
+        "title": {
+            "text": "A kid ?!"
+        },
+        "description": {
+            "text": "Okay that's a bit more than a pet... but we will take care of it forever."
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:kid"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

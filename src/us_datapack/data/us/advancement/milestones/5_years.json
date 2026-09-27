@@ -1,0 +1,26 @@
+{
+    "parent": "us:milestones/2_years",
+    "display": {
+        "title": {
+            "text": "5 Years!"
+        },
+        "description": {
+            "text": "Are we married at this point? I sure hope so ❤"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:5_years"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

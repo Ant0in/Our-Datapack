@@ -1,0 +1,26 @@
+{
+    "parent": "us:memories/discord_message",
+    "display": {
+        "title": {
+            "text": "Going on a Date!"
+        },
+        "description": {
+            "text": "Screw Cybersec, maybe a bubbletea shop? At Rogier?"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:going_on_date"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

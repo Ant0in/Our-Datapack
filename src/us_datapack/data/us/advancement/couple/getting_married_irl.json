@@ -1,0 +1,26 @@
+{
+    "parent": "us:couple/proposal_irl",
+    "display": {
+        "title": {
+            "text": "Getting married"
+        },
+        "description": {
+            "text": "Yes (really)."
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:getting_married_irl"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

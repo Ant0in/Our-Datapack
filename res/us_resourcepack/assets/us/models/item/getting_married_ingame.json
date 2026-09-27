@@ -1,0 +1,7 @@
+
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "us:item/getting_married_ingame"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "parent": "us:memories/confession",
+    "display": {
+        "title": {
+            "text": "Fourilles"
+        },
+        "description": {
+            "text": "I always dreamt of bringing the love of my life to Fourilles."
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:fourilles"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "parent": "us:root",
+    "display": {
+        "title": {
+            "text": "Discord Message"
+        },
+        "description": {
+            "text": "That's what started all of this ❤"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:discord_message"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

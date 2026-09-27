@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Together ❤"
+        },
+        "description": {
+            "text": "Start a new adventure, together."
+        },
+        "icon": {
+            "id": "minecraft:poppy"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "parent": "us:build/home_sweet_home",
+    "display": {
+        "title": {
+            "text": "Church"
+        },
+        "description": {
+            "text": "This is where we're going to get married :3"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:church"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

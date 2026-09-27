@@ -1,0 +1,26 @@
+{
+    "parent": "us:memories/confession",
+    "display": {
+        "title": {
+            "text": "The end?"
+        },
+        "description": {
+            "text": "Can we survive a very difficult situation? Is our couple strong enough?"
+        },
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "us:pause"
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "done": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

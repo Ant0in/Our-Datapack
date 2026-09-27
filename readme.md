@@ -14,7 +14,7 @@ This project is part of our Minecraft Server with Anastasia. It creates a bunch 
 
 <div align="center">
   <img src="./res/tree.png" alt="advancement-tree" width="80%" style="margin-top: 15px;" />
-  <p align="center">Advancement Tree</p>
+  <p align="center"><b>Figure 1:</b> Advancement Tree</p>
 </div>
 
 ## 📜 Features

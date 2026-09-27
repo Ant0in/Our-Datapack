@@ -33,7 +33,7 @@ This project is part of our Minecraft Server with Anastasia. It creates a bunch 
 
 2. Drop the datapack [**`/src/us_datapack`**](/src/us_datapack/) in your `/datapack` folder in your **server's world**.
 
-3. Drop the resourcepack [**`/src/us_resourcepack`**](/res/us_resourcepack/) in your `/resourcepack` folder in your **minecraft instance**.
+3. Drop the resourcepack [**`/res/us_resourcepack`**](/res/us_resourcepack/) in your `/resourcepack` folder in your **minecraft instance**.
 
 Make sure the version of the pack is **suiting your minecraft version**. See [Pack Format](https://minecraft.wiki/w/Pack_format) for more details.
 

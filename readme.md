@@ -19,22 +19,23 @@ This project is part of our Minecraft Server with Anastasia. It creates a bunch 
 
 ## 📜 Features
 
-- **Datapack** containing all our advancements.
-- Cute resourcepack with our custom thumbnails for our advancements! 🎨✨
+- **Datapack** containing all our **advancements**.
+- Cute resourcepack with our **custom thumbnails** for our advancements! 🎨✨
+- Small [Python Script](/src/helper.py) to generate relevant files for the **resourcepack**.
 
 ## ⚙️ Installation
 
 1. Clone the repository:
 
     ```sh
-    git clone git@github.com:Ant0in/_.git
+    git clone git@github.com:Ant0in/Our-Datapack.git
     ```
 
-2. Drop the datapack **`/src/us_datapack`** in your `/datapack` folder in your **server's world**.
+2. Drop the datapack [**`/src/us_datapack`**](/src/us_datapack/) in your `/datapack` folder in your **server's world**.
 
-3. Drop the resourcepack **`/src/us_resourcepack`** in your `/resourcepack` folder in your **minecraft instance**.
+3. Drop the resourcepack [**`/src/us_resourcepack`**](/res/us_resourcepack/) in your `/resourcepack` folder in your **minecraft instance**.
 
-Make sure the version of the pack is **suiting your minecraft version**.
+Make sure the version of the pack is **suiting your minecraft version**. See [Pack Format](https://minecraft.wiki/w/Pack_format) for more details.
 
 ## 📄 License
 

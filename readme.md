@@ -3,7 +3,7 @@
 <!-- pretty badges -->
 <div align="center">
   <img src="https://img.shields.io/badge/Language-Minecraft-red" alt="Language Badge"/>
-  <img src="https://img.shields.io/badge/Version-v1.0-blue" alt="Version Badge">
+  <img src="https://img.shields.io/badge/Version-v1.1-blue" alt="Version Badge">
   <img src="https://img.shields.io/badge/Pack_Format-61-yellow" alt="Pack Format">
   <img src="https://img.shields.io/badge/License-MIT-dark_green.svg" alt="License Badge"/>
 </div>
